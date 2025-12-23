@@ -1,0 +1,109 @@
+/* Newsletter Section */
+.newsletter {
+  background: linear-gradient(90deg, #ec407a, #f06292);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.newsletter h2 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.newsletter p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.newsletter-form input {
+  width: 280px;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.newsletter-form button {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Footer Main */
+.footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 20px 30px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col h4,
+.brand {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.brand {
+  color: #ec407a;
+  font-size: 22px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer-col ul li:hover {
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-icons span {
+  width: 35px;
+  height: 35px;
+  background-color: #ec407a;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+

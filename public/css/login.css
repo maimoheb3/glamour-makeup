@@ -1,0 +1,151 @@
+.page-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 420px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.login-card h2 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #ec407a, #f06292);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-text {
+  margin-top: 20px;
+}
+
+.signup-text a {
+  color: #ec407a;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.order-confirmation-page {
+  max-width: 700px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.success-icon {
+  font-size: 70px;
+  color: #ec407a;
+  margin-bottom: 20px;
+}
+
+.order-confirmation-page h2 {
+  margin-bottom: 10px;
+}
+
+.order-confirmation-page p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.order-summary {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ec407a;
+}
+
+.continue-btn {
+  margin-top: 30px;
+  padding: 14px 36px;
+  border-radius: 30px;
+  border: none;
+  background: #ec407a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background: #d81b60;
+}
+
+.profile-card {
+  width: 500px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+  margin-bottom: 30px;
+}
+
+.profile-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+

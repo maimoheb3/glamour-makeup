@@ -1,0 +1,135 @@
+.brand-page {
+  padding: 40px 120px;
+  background: #f8f9fb;
+}
+
+.brand-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #222;
+}
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.brand-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brand-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.brand-card h3 {
+  margin-bottom: 10px;
+  color: #ec407a;
+  font-size: 20px;
+}
+
+.brand-card p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.admin-actions button {
+  flex: 1;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.admin-actions button:first-child {
+  background: #ec407a;
+  color: #fff;
+}
+
+.admin-actions button:last-child {
+  background: #222;
+  color: #fff;
+}
+
+.admin-actions button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .brand-page {
+    padding: 40px 20px;
+  }
+
+  .brand-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-info {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fb;
+  border-radius: 12px;
+}
+
+.profile-info > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-info > div:last-child {
+  border-bottom: none;
+}
+
+.profile-info span {
+  font-weight: 600;
+  color: #666;
+}
+
+.profile-info p {
+  margin: 0;
+  color: #222;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #ec407a;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.error {
+  padding: 20px;
+  background: #fee;
+  color: #c33;
+  border-radius: 8px;
+  margin: 20px;
+}
+
